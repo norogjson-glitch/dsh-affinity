@@ -1,0 +1,7 @@
+# dsh-affinity bundle patch.
+#
+# One additive `insert` row. The Host half registers a system-prompt section
+# and three tools; there is no client half yet.
+- insert:
+    - id: affinity
+      name: 'dsh-affinity'

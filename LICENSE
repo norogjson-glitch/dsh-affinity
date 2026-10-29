@@ -1,0 +1,22 @@
+﻿dsh-affinity
+Copyright (C) 2026
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+---
+
+The affinity model implemented here is inspired by the design documented in
+eros-engine (https://github.com/etherfunlab/eros-engine), which is licensed
+under AGPL-3.0. This is an independent reimplementation: no eros-engine source
+code is included.

@@ -1,0 +1,46 @@
+{
+  "name": "dsh-affinity",
+  "version": "0.1.0",
+  "description": "A six-axis affinity model for DeepSeek Harness: warmth, patience, trust, intrigue, intimacy and tension that move on ordinal grades, decay with absence, and turn into relationship labels by threshold. An independent implementation of the affinity model described by eros-engine.",
+  "type": "module",
+  "license": "AGPL-3.0-or-later",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./model": "./lib/model.js",
+    "./store": "./lib/store.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/model.test.mjs test/store.test.mjs"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "affinity",
+    "companion",
+    "persona",
+    "relationship",
+    "memory"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "compatibility": {
+      "dshReleases": {
+        "0.2.1-rc.2": "verified"
+      }
+    }
+  }
+}
